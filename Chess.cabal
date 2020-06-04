@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9f4251fa09aa98f4c74bbcbac8f26b00355d533b69cadfed382596e1612e9ed7
+-- hash: 2ff717788f96572c6f61ce25cfcff31e290aeb449ba419b6b4870c79864b9028
 
 name:           Chess
 version:        0.1.0.0
@@ -33,7 +33,8 @@ library
   hs-source-dirs:
       src
   build-depends:
-      base >=4.7 && <5
+      array
+    , base >=4.7 && <5
   default-language: Haskell2010
 
 executable Chess-exe
